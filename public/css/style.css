@@ -1,10 +1,4 @@
-h1,
-h2,
-h3 {
-    font-family: 'Roboto', sans-serif;
-}
-
-header {
-    background-color: #EAC926;
-    ;
-}
+@import url(/css/footer.css);
+@import url(/css/general.css);
+@import url(/css/header.css);
+@import url(/css/main.css);
