@@ -30,6 +30,7 @@ text-decoration: none;
 header nav ul.ul2 {
     margin-top: 10px;
 }
+
 header div.burger-menu {
     text-align: center;
 }
@@ -40,4 +41,26 @@ padding: 10px;
 border-radius: 5px;
 color: white;
 margin: 15px 0px;
+}
+
+header section img.banner {
+    width: 100%;
+    margin: 0;
+    background-size: cover;
+    display: none;
+}
+
+header nav {
+    display: none;
+}
+
+@media (min-width: 361px){
+    header nav {
+        display: block;
+    }
+
+    header div.burger-menu i {
+        display: none;
+    }
+
 }

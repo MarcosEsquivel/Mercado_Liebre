@@ -17,4 +17,47 @@ main section img {
 
 main {
   background-color: var(--GrisClaro);
+  width: 90%;
+  margin-left: 5%;
+}
+
+main section {
+  margin-bottom: 10px;
+}
+
+main section article i {
+  color: var(--Verde);
+  font-size: 20px;
+  border: solid var(--Verde) 1px;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+main section article div {
+  background-color: white;
+  border-top: solid 1px var(--GrisClaro);
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+main section article.product {
+margin-top: 20px;
+}
+
+main section article.productofert {
+  margin-top: 20px;
+}
+
+main section p.descuento {
+  color: var(--Verde);
+}
+
+main section h4 {
+  display: none;
+}
+
+@media (min-width: 361px){
+  main section article {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  }
 }
