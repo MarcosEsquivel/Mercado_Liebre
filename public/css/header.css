@@ -31,6 +31,10 @@ header nav ul.ul2 {
     margin-top: 10px;
 }
 
+header nav ul {
+    margin-left: 15px;
+}
+
 header div.burger-menu {
     text-align: center;
 }

@@ -1,4 +1,4 @@
-h2
+ h2
   {
     font-size: 24px;
 }
@@ -18,11 +18,11 @@ main section img {
 main {
   background-color: var(--GrisClaro);
   width: 90%;
-  margin-left: 5%;
+  margin: 0 auto;
 }
 
 main section {
-  margin-bottom: 10px;
+  margin: 10px 0;
 }
 
 main section article i {
@@ -34,10 +34,8 @@ main section article i {
 }
 
 main section article div {
-  background-color: white;
   border-top: solid 1px var(--GrisClaro);
   padding: 15px;
-  margin-bottom: 20px;
 }
 
 main section article.product {
