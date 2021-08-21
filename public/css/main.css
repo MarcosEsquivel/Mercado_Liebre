@@ -60,4 +60,9 @@ main section h4 {
   main section article {
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
   }
+
+main section h4 {
+  display: block;
+}
+
 }
