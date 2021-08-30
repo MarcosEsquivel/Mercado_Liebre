@@ -2,33 +2,57 @@ header {
     background-color: var(--Amarillo);
 }
 
+header div.header1{
+    display: flex;
+    flex-wrap: wrap;
+
+} 
+
 header div.logoybarra{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-}
-
-header img{
     width: 50%;
-   /*  margin-top: 30px;
-    margin-left: 20px; */
 }
 
-header div form input{
+header div.logoybarra img{
+    padding-left: 10%;
+    padding-top: 10%;
+}
+
+
+
+header form input{
     width: 83%;
+    font-size: 16px;
+    margin-top: 11%;
+    padding: 3%;
 }
 
-header div form {
+header div form button{
+  position: absolute;
+  right: 22%;
+  border: none;
+  top: 50%;
+}
+
+header div form button i {
+    font-size: 16px;
+}
+
+header form {
     width: 50%;
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0px 10px
+    padding: 0px 10px;
+    position:relative;
 }
 
 header p {
 text-align: center;
-margin: 10px 0px 20px 0px;
+margin: 15px 0px 20px 0px;
+width: 100%;
 }
 
 header nav ul li a {
@@ -67,30 +91,54 @@ header nav {
     display: none;
 }
 
+/* --------------------------------------------------------------------------------------------------------------- */
+
 @media (min-width: 361px){
+header div.header1 .logoybarra{
+width: 33%;
+
+}
+
+header div.header1 form {
+    width: 33%;
+    padding-top: 4%;
+}
+
+header div.header1 p{
+    width: 33%;
+    padding-top: 5%;
+}
+
+header div.header1 form button {
+position: static;
+width: 11%;
+margin-left: 2%;
+} 
+
+header form input{
+font-size: 12px;
+padding: 0;
+margin-top: 0%;
+}
+
     header nav {
         display: flex;
         flex-direction: row;
         align-items: flex-end;
         justify-content: space-between;
-    }
-
-    header div form input{
-        width: 50%;
+        margin-bottom: 10px;
     }
 
 header nav ul.ul1{
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    margin-bottom: 10px;
+    width: 40%;
+    justify-content: space-around;
 }
 
 header nav ul.ul2{
 display: flex;
-flex-direction: row;
-justify-content: flex-end;
-margin-bottom: 10px;
+width: 40%;
+justify-content: space-evenly;
 }
 
     header div.burger-menu i {
@@ -106,15 +154,10 @@ margin-bottom: 10px;
     
 }
 
+
+/* ----------------------------------------------------------------------------------------------------------------------- */
+
 @media (min-width: 769px){
 
-    header div form input{
-        width: 50%;
-    }
-
-header p {
-    display: flex;
-    place-content: flex-end;
-}
 
 }
