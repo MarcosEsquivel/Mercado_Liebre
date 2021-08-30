@@ -15,7 +15,7 @@ header img{
 }
 
 header div form input{
-    width: 80%;
+    width: 83%;
 }
 
 header div form {
@@ -75,6 +75,10 @@ header nav {
         justify-content: space-between;
     }
 
+    header div form input{
+        width: 50%;
+    }
+
 header nav ul.ul1{
     display: flex;
     flex-direction: row;
@@ -100,4 +104,17 @@ margin-bottom: 10px;
         display: block;
     }
     
+}
+
+@media (min-width: 769px){
+
+    header div form input{
+        width: 50%;
+    }
+
+header p {
+    display: flex;
+    place-content: flex-end;
+}
+
 }
