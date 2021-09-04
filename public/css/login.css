@@ -1,0 +1,50 @@
+.login section{
+    width: 100%;
+}
+
+.login section article{
+    width: 100%;
+    box-shadow: none;
+}
+
+.login section article form{
+    display: flex;
+    flex-direction: column;
+}
+
+.login section article form input{
+    margin-top: 30px;
+    border: none;
+    padding: 10px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
+
+.login section article form input.BOTON{
+    background-color: var(--Celeste);
+    color: white;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+@media (min-width: 361px){
+    
+}
+
+@media (min-width: 769px){
+.login section article {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+.login section article form{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+}

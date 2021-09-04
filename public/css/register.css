@@ -1,0 +1,95 @@
+.register section{
+    width: 100%;
+}
+
+.register section article{
+    padding: 20px;
+    box-shadow: none;
+    width: 100%;
+}
+
+.register section article form{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.register section article form label{
+    display: flex;
+    flex-direction: column;
+}
+
+.register section article form label.Fecha{
+font-size: 18px;
+font-weight: 900;
+}
+
+.register section article form label.Perfil{
+font-size: 18px;
+font-weight: 900;
+}
+
+.register section article form label.Intereses{
+font-size: 18px;
+}
+
+.register section article form label.Intereses p{
+font-size: 14px;
+}
+
+.register section article form label.Foto{
+font-size: 18px;
+font-weight: 900;
+}
+
+.register section article form input{
+    margin-top: 20px;
+    border: none;
+    padding: 10px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
+
+.register section article form p{
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.register section article form p.\31{
+font-size: 18px;
+}
+
+.register section article form p.\32{
+font-size: 18px;
+}
+
+.register section article form p.\33{
+    font-size: 18px;
+}
+
+.register section article form p.\34{
+    font-size: 18px;
+}
+
+.register section article form input.BOTON2{
+background-color: var(--Celeste);
+color: white;
+} 
+
+.register section article form input.BOTON3{
+background-color: var(--Celeste);
+color: white;
+} 
+
+@media (min-width: 361px){
+    .register section article {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+}
+
+@media (min-width: 769px){
+  .register section article {
+      width: 34%;
+      box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  }
+}
