@@ -65,7 +65,7 @@
     <main class="register">
       <section>
         <article>
-          <form action="/register" method="GET">
+          <form action="/register" method="POST">
               <input type="text" name="Nombre y apellido" required placeholder="Nombre y apellido">
               <input type="text" name="Nombre de usuario" required placeholder="Nombre de usuario">
               <input type="text" name="E-mail" required placeholder="E-mail">
@@ -74,19 +74,20 @@
               <input type="date" name="mm/dd/yyyy" required placeholder="mm/dd/yyyy">
 
               <input type="Domicilio" name="Domicilio" required placeholder="Domicilio">
-            
+              <br>
               <label for="Perfil del usuario"  class="Perfil">Perfil del usuario</label>
+              <br>
+              <label for="Perfil del usuario"  class="Comprador">Comprador</label>
               <input type="radio" name="Perfil del usuario" value="Comprador" id="Comprador">
+              <label for="Perfil del usuario"  class="Vendedor">Vendedor</label>
               <input type="radio" name="Perfil del usuario" value="Vendedor" id="Vendedor">
 
-              <label for="Intereses" class="Intereses">Intereses
-
-              <p>Electro</p><input type="checkbox" name="Intereses" value="Electro" 
-              <p>Moda</p><input type="checkbox" name="Intereses" value="Moda" 
-              <p>Hogar</p><input type="checkbox" name="Intereses" value="Hogar" 
-              <p>Jugueteria</p><input type="checkbox" name="Intereses" value="Jugueteria"
-              <p>Vida sana</p><input type="checkbox" name="Intereses" value="Vida sana"
-              </label>
+              <label for="Intereses" class="Intereses">Intereses</label>
+              <p>Electro</p><input type="checkbox" name="Intereses" value="Electro"> 
+              <p>Moda</p><input type="checkbox" name="Intereses" value="Moda"> 
+              <p>Hogar</p><input type="checkbox" name="Intereses" value="Hogar"> 
+              <p>Jugueteria</p><input type="checkbox" name="Intereses" value="Jugueteria">
+              <p>Vida sana</p><input type="checkbox" name="Intereses" value="Vida sana">
 
               <label for="Foto de usuario" class="Foto de usuario">Foto de usuario</label>
               <input type="file" name="Foto de usuario" accept=".jpg, .png">
@@ -94,8 +95,12 @@
               <input type="text" name="Nombre de Usuarío" required placeholder="Nombre de Usuarío">
               <input type="password" name="password" required placeholder="Contraseña">
               <input type="password" name="password" required placeholder="Confirmar contraseña">
-            <input class="BOTON2" value="Enviar" type="submit">
-            <input class="BOTON3" value="Borrar" type="submit">
+              <p class="BOTON2">
+            <button type="submit">Enviar</button>
+          </p>
+          <p class="BOTON3">
+            <button type="submit">Borrar</button>
+          </p>
           </form>
         </article>
       </section>

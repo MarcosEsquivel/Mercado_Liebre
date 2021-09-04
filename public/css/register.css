@@ -31,6 +31,7 @@ font-weight: 900;
 
 .register section article form label.Intereses{
 font-size: 18px;
+font-weight: 900;
 }
 
 .register section article form label.Intereses p{
@@ -55,30 +56,22 @@ font-weight: 900;
     font-size: 14px;
 }
 
-.register section article form p.\31{
-font-size: 18px;
-}
-
-.register section article form p.\32{
-font-size: 18px;
-}
-
-.register section article form p.\33{
-    font-size: 18px;
-}
-
-.register section article form p.\34{
-    font-size: 18px;
-}
-
-.register section article form input.BOTON2{
+.register section article form p.BOTON2 button{
 background-color: var(--Celeste);
 color: white;
+width: 100%;
+border-radius: 20px;
+margin-bottom: 10px;
+height: 30px;
 } 
 
-.register section article form input.BOTON3{
+.register section article form p.BOTON3 button{
 background-color: var(--Celeste);
 color: white;
+width: 100%;
+border-radius: 20px;
+margin-top: 10px;
+height: 30px;
 } 
 
 @media (min-width: 361px){
@@ -89,7 +82,7 @@ color: white;
 
 @media (min-width: 769px){
   .register section article {
-      width: 34%;
+      width: 55%;
       box-shadow: 0px 0px 10px rgb(100, 100, 100);
   }
 }
