@@ -49,6 +49,11 @@ main section article div {
   flex-wrap: wrap;
 }
 
+main section article div i:hover{
+  transform: rotate(-90deg);
+  transition: 1s;
+}
+
 main section article div h4{
   color: var(--GrisOscuro)
 }

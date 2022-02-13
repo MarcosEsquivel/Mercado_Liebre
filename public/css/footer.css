@@ -10,6 +10,11 @@ footer section i {
 
 }
 
+footer section i:hover {
+    color:  var(--Verde);
+    transition: .5s;
+}
+
 footer span{
     margin-left: 15px;
     display: block;
