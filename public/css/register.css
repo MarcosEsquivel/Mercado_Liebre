@@ -6,6 +6,8 @@
     padding: 20px;
     box-shadow: none;
     width: 100%;
+    display: flex;
+    flex-flow: column;
 }
 
 .register section article form{
